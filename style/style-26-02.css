@@ -1,4 +1,4 @@
-*{box-sizing: border-box
+*{box-sizing: border-box;
 }
 
 body{
@@ -48,7 +48,7 @@ header{
     height: auto;
  }
 
- .box1{
+ .cloud{
     height: 421px;
     background: rgb(250, 201, 96);
     padding-top: 102px;
@@ -108,8 +108,24 @@ input::placeholder{
     display: inline-block;
     vertical-align: middle;
 }
+.button-get:hover{
+    margin-top: 40px;
+    margin-left: 6px;
+    width: 240px;
+    height: 54px;
+    border-radius: 0px 2px 2px 0px;
+    border: none;
+    background: rgb(86, 69, 31);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 54px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
 
-.box2{
+.space{
    height: 438px;
    padding-top: 77px; 
    padding-bottom: 81px;
@@ -141,22 +157,21 @@ h3{
     text-align: center;    
 }
 
-.box3{
+.access{
     height: 625px;
     padding-top: 88px;
     padding-bottom: 21px;
-    background: rgb(107, 93, 93);
+    background: rgb(255, 255, 255);
 }
 .block-access{
     position: relative;
     z-index: 1;
     width:940px;
     margin: 0 auto;
-    /*visibility: hidden;*/
-    background: rgb(107, 93, 93);    
+    background: rgb(255, 255, 255);    
 }
 
-.box4{
+.tell-friends{
     height: 313px;
     padding-top: 54px;
     padding-bottom: 107px;
@@ -185,6 +200,14 @@ h3{
     border: 1px solid rgb(117, 134, 150);
     border-radius: 3px;
     background: rgb(255, 255, 255);
+}
+.button-tell:hover{
+    height: 22px;
+    width: 61px;
+    box-sizing: border-box;
+    border: 1px solid rgb(117, 134, 150);
+    border-radius: 3px;
+    background: rgb(153, 153, 153);
 }
 
 footer{
